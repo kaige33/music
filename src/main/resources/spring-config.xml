@@ -11,7 +11,7 @@
        http://www.springframework.org/schema/tx
        http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <context:component-scan base-package="com.chinasoft"/>
+    <context:component-scan base-package="music"/>
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"
           p:driverClassName="com.mysql.cj.jdbc.Driver"
@@ -26,7 +26,7 @@
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"
-          p:basePackage="com.chinasoft.permission.mapper"
+          p:basePackage="music.mapper"
           p:sqlSessionFactoryBeanName="sessionFactory"
     >
     </bean>
