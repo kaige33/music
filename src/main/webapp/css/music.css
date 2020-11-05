@@ -1,0 +1,65 @@
+.imgsize>li>div>img {
+	height: 190px;
+	width: 155px;
+}
+
+.imgsize {
+	margin-left: 20px;
+}
+
+.bianda{
+	margin:5px;
+	width:160px;
+}
+.bianda:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.listmusic ul li:hover {
+	transform: scale(1.1);
+	border: 1px solid #0070A9;
+	cursor: pointer;
+}
+
+.footer {
+	height: 100px;
+	text-align: center;
+	padding-top: 60px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+nav a:hover, .shouxing:hover {
+	cursor: pointer;
+}
+
+main {
+	margin: 30px 0px;
+}
+
+.border-songmenu td {
+	padding: 5px 20px;
+}
+
+.Btmusic {
+	position:absolute;
+	left:300px;
+	display: none;
+}
+
+.Btmusic img {
+	height: 20px;
+	width: 20px;
+}
+
+.Btmusic img:hover{
+	cursor:pointer;
+}
+
+#tr1:hover .Btmusic {
+	display: inline;
+}
+.message{
+	display:none;
+}
